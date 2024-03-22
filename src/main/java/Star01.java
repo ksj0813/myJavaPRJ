@@ -19,7 +19,7 @@ public class Star01 {
     }
 }
 
-        /**
+        /****
          *  for문은
          *  for (조건) {
          *      코드
