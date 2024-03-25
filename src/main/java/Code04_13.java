@@ -4,17 +4,18 @@ public class Code04_13 {
         String upper = "";
         String lower = "";
         String cutStr = "";
+        String allstr = "";
 
 
         upper = str.toUpperCase();
         lower = str.toLowerCase();
         cutStr = str.trim();
-
+        allstr = str.replaceAll(" ","");
 
         System.out.println("기존 문자열 ==> [" + str + "]");
         System.out.println("대문자 ==> [" + upper + "]");
         System.out.println("소문자 ==> [" + lower + "]");
         System.out.println("공백 제거 ==> [" + cutStr +"]");
-
+        System.out.println("모든공백 제거 ==> [" + allstr +"]");
     }
 }
