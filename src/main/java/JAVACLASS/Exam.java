@@ -1,3 +1,5 @@
+package JAVACLASS;
+
 import java.util.Scanner;
 
 //3의 배수?
