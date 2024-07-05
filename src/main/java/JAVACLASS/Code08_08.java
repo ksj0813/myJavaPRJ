@@ -22,11 +22,44 @@ package JAVACLASS;
     }
     public class Code08_08 {
         public static void main (String[] args){
-            HouseRabbit3 hr = new HouseRabbit3();
-            MountainRabbit3 mr = new MountainRabbit3();
+//            HouseRabbit3 hr = new HouseRabbit3();
+//            MountainRabbit3 mr = new MountainRabbit3();
+//
+//            Object object = new Object();
+//
+//            hr.sleep();
+//            mr.sleep();
 
-            hr.sleep();
-            mr.sleep();
+            /**
+             * equality //내용이 같다.
+             * identity //둘이 완전 동일 객체이다
+             */
+
+//            "123" == "123"
+
+//            String a = "123";
+//            String b = "123";
+
+            String a = new String("123");
+            String b = new String("123");
+            String a1 = a;
+            String a2 = a;
+            String a3 = a;
+            String a4 = a;
+            String a5 = a;
+            String a6 = a;
+            String a7 = a;
+            String a8 = a;
+
+
+            b.equals(a1);
+
+            if (a.equals(b)) {
+                System.out.println("같다!");
+            } else {
+                System.out.println("아니야");
+            }
+
 
         }
 
